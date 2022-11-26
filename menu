@@ -1,0 +1,153 @@
+create table KFC_menu(
+pcode varchar(10) primary key,
+food_items varchar(40),
+price integer);
+insert into KFC_menu values(“KFC01A”,”Veg Burger”, 95);
+insert into KFC_menu values(“KFC01B”,”Chicken Burger “,99);
+insert into KFC_menu values(“KFC01C”,” Spicy Chicken Burger”,100);
+insert into KFC_menu values (“KFC02”,”French Fries”, 50);
+insert into KFC_menu values (“KFC03A”,”Chicken Wings”,75);
+insert into KFC_menu values(“KFC03M”,”Chicken Wings medium”, 95);
+insert into KFC_menu values(“KFC04L”,”Chicken popcorn Large”, 90);
+insert into KFC_menu values (“KFC04M”,”Chicken popcorn medium”, 70);
+insert into KFC_menu values(“KFC04S”,”Chicken popcorn”,30);
+insert into KFC_menu values (“KFC05”,”Kids combo”, 190);
+insert into KFC_menu values (“KFC06”,”pepsi”,50);
+
+create table Keventers(
+pcode varchar(10) primary key,
+food_items varchar(40),
+price integer);
+insert into Keventers values(“KE01”,”Chocolate Milkshake”,91);
+insert into Keventers values(“KE02”,” Strawberry Milkshake”, 91);
+insert into Keventers values (“KE03”,”Mango Milkshake”,80);
+insert into Keventers values (“KE04”,” kesar badam”,”100”);
+insert into Keventers values (“KE05”,”Cold coffee crave”, 120);
+insert into Keventers values (“KE06”,”Kit-Kat Shake”, 119);
+insert into Keventers values (“KE07”,”Oreo Shake”,129);
+insert into Keventers values(“KE08”,”Banana Shake”,110);
+insert into Keventers values(“KE09”,”Butterscotch shake”,100);
+
+
+create table dominos_menu(
+pcode varchar(10) primary key,
+food_items varchar(40),
+price integer);
+insert into dominos_menu values (“DP01A”,”Veg pizza”,109);
+insert into dominos_menu values (“DP01AH”,”veg pizza Large”,149);
+insert into dominos_menu values(“DP01AS”,”veg pizza medium”, 119);
+insert into dominos_menu values(“DP01B”,” Non-veg pizza”, 99);
+insert into dominos_menu values (“DP01BL”,”Non-veg pizza large”,129);
+insert into dominos_menu values (“DP01BM”,”Non-veg pizza medium”,109);
+insert into dominos_menu values (“DP02”,”Choco Lava”,49);
+insert into dominos_menu values (“DP03”,”Butterscotch moose cake”,69);
+insert into dominos_menu values (“DP04”,”Garlic bread sticks”, 99);
+insert into dominos_menu values (“DP05”,”Pepsi”,80);
+insert into dominos_menu values (“DP06”,”Limca”, 80);
+
+
+
+
+create table Kareems(
+pcode varchar(10) primary key,
+food_items varchar(40),
+price integer);
+insert into Kareems values("KM01a","Paneer Tikka",150);
+insert into Kareems values("KM01b","Masala papad",200);
+insert into Kareems values("KM02a","Green salad",60);
+insert into Kareems values("KM02b","Mix veg Raita",80);
+insert into Kareems values("KM02c","Biryani",80);
+insert into Kareems values("KM02d","Mushroom Tikka",100);
+insert into Kareems values("KM03a","Kareem”s special",86);
+insert into Kareems values("KM03b","Veg platter",200);
+insert into Kareems values("KMo4a",”Palak Paneer",70);
+insert into Kareems values("KM04b","Dal Fry",120);
+insert into Kareems values("KM05","Veg Soup",90);
+insert into Kareems values("KM06a","Butter Naan",30);
+insert into Kareems values("KMo6b","Non Veg Soup",100);
+insert into Kareems values("KM07","Jeera Rice",70);
+
+
+create table Haldirams_menu(pcode varchar(10) primary key,
+food_items varchar(40),
+price integer);
+insert into Haldirams_menu values(“HD01”,”Samosa”, 20);
+insert into Haldirams_menu values(“HD02”,”Kachodi “,30);
+insert into Haldirams_menu values(“HD03”,” Chole Bhature”,75);
+insert into Haldirams_menu values (“HD04”,”Matar Kulcha”, 85);
+insert into Haldirams_menu values (“HD05”,”Pani Puri”,60);
+insert into Haldirams_menu values(“HD06”,”Pav Bhaji”, 120);
+insert into Haldirams_menu values(“HD07a”,”Veg Deluxe Thali”, 200);
+insert into Haldirams_menu values(“HD07b”,”Veg Supreme Thali”, 250);
+insert into Haldirams_menu values (“HD08”,”Veg Kebab Platter”, 300);
+insert into Haldirams_menu values(“HD09a”,”Bhel Puri”,60);
+insert into Haldirams_menu values(“HD09b”,”Sev Puri”,60);
+insert into Haldirams_menu values (“HD10a”,”Dahi Bhalla”, 110);
+insert into Haldirams_menu values (“HD10b”,”Bhalla Papdi”,120);
+
+
+
+
+create table ChineseGarden_menu (pcode varchar(10) primary key,
+food_items varchar(40),
+price integer,);
+Insert into ChineseGarden_menu values(“CG01a”,”Hakka Noodles(veg)”, 150);
+Insert into ChineseGarden_menu values(“CG01b”,”Hakka Noodles(non veg) “,200);
+Insert into ChineseGarden_menu values(“CG02a”,”Steam momos(veg)”, 60);
+Insert into ChineseGarden_menu values(“CG02b”,”Steam momos(non veg) “,80);
+Insert into ChineseGarden_menu values(“CG02c”,”Tandoori momos(veg)”, 80);
+Insert into ChineseGarden_menu values(“CG02d”,”Tandoori momos(non veg) “,100);
+Insert into ChineseGarden_menu values(“CG03a”,”Spring rolls(veg)”, 85);
+Insert into ChineseGarden_menu values(“CG03b”,”Spring rolls(non veg) “,100);
+Insert into ChineseGarden_menu values(“CG04a”,”Manchurian(with gravy)”, 170);
+Insert into ChineseGarden_menu values(“CG04b”,”Manchurian(without gravy) “,130);
+Insert into ChineseGarden_menu values(“CG05”,”Honey Chilli Potato”, 90);
+Insert into ChineseGarden_menu values(“CG06a”,”Manchow Soup(veg)”, 160);
+Insert into ChineseGarden_menu values(“CG06b”,”Manchow Soup(non veg) “,200);
+Insert into ChineseGarden_menu values(“CG07”,”Fried Rice”, 100);
+
+
+create table Emp_Info_Haldirams
+ -> (Employee_Number varchar(10) primary key,
+ -> Employee_Name varchar(20),
+ -> Salary integer,
+ -> Commission integer,
+ -> Date_Of_Joining date,
+ -> Age integer);
+insert into Emp_Info_Haldirams values(“HD01”,”Ramesh Sharma”,18000,2000,”2019-04-01”,29);
+insert into Emp_Info_Haldirams values(“HD02”,”Rajbir Singh”,14000,3000,”2019-04-01”,23);
+insert into Emp_Info_Haldirams values(“HD04”,”Naresh Kumar”,19000,4000,”2019-06-24”,35);
+insert into Emp_Info_Haldirams values(“HD05”,”Vimal”,21000,2000,”2019-04-01”,30);
+insert into Emp_Info_Haldirams values(“HD09”,”Ram”,16000,3000,”2020-02-27”,21);
+create table Quarter_Sales_Haldirams
+ -> (Quarter varchar(30) primary key,
+ -> Raw_Materaial_Cost integer(20),
+ -> Electricity_Consumption integer,
+ -> Rent_Cost integer,
+ -> Total_Cost integer,
+ -> Total_Earnings integer,
+ -> Profit_Or_Loss varchar(30));
+insert into Quarter_sales_Haldirams values(“April 2019-June 
+2019”,1500000,100000,25000,1625000,3000000,”45 percent profit”);
+insert into Quarter_sales_Haldirams values(“July 2019-September 
+2019”,1000000,90000,25000,1115000,2900000,”61 percent profit”);
+insert into Quarter_sales_Haldirams values(“October 2019-December 
+2019”,800000,100000,30000,930000,1500000,”38 percent profit”);
+insert into Quarter_sales_Haldirams values(“January 2020-March 
+2020”,1200000,200000,30000,1430000,1400000,”2 percent loss”);
+create table Maintainance_Haldirams
+ -> (Machine_Name varchar(40) primary key,
+ -> Purchase_Cost integer(20),
+ -> Service_Cost integer(20),
+ -> Date_Of_Purchase date,
+ -> Date_Of_Service date,
+ -> Efficiency varchar(20));
+insert into maintainance_haldirams values(“coffee machine”,10000,200,”2019-04-01”,”2020-03-
+07”,”90 percent”);
+insert into maintainance_haldirams values(“Freezer machine”,200000,1000,”2019-04-01”,”2020-03-
+07”,”90 percent”);
+insert into maintainance_haldirams values(“Heated storage system”,100000,1000,”2019-04-
+01”,”2020-03-07”,”90 percent”);
+
+
+
